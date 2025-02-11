@@ -1,8 +1,18 @@
 {
+  "name": "data-fetch",
+  "version": "1.0.0",
+  "description": "Backend API for fetching and scraping live data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "axios": "^1.7.9",
     "cheerio": "^1.0.0",
     "cors": "^2.8.5",
     "express": "^4.21.2"
-  }
+  },
+    "engines": {
+    "node": ">=16.0.0"
+}
 }
